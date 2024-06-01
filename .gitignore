@@ -1,0 +1,11 @@
+.venv
+.idea
+/db.sqlite3
+anki/__pycache__/
+cards/__pycache__/
+cards/migrations/__pycache__/
+cards/templatetags/__pycache__/
+/lesson_47.db
+users/__pycache__/
+media/
+.env

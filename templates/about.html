@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% comment %} templates/about.html шаблон, расширяющий базовый шаблон base.html {% endcomment %}
+
+{% block title %}О сайте{% endblock %}
+
+{% block content %}
+    <h1>Проект интервального повторения</h1>
+    <p>Данный проект помогает запоминать информацию с помощью интервального повторения</p>
+    <p>В проекте {{ users_count }} пользователей.</p>
+    <p>Карточек {{ cards_count }}.</p>
+{% endblock %}
+
+{% block footer %}
+    <p>Футер из about.html</p>
+{% endblock %}
